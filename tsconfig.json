@@ -1,28 +1,21 @@
 {
-	"compilerOptions": {
-		"target": "es2015",
-		"lib": ["dom", "dom.iterable", "esnext"],
-		"allowJs": false,
-		"skipLibCheck": true,
-		//
-		// "strict": true,
-		"alwaysStrict": true,
-		"noImplicitAny": false,
-		"strictNullChecks": true,
-		"strictPropertyInitialization": false,
-		"strictFunctionTypes": true,
-		"noImplicitThis": true,
-		"strictBindCallApply": true,
-		//
-		"forceConsistentCasingInFileNames": true,
-		"noEmit": true,
-		"esModuleInterop": true,
-		"module": "esnext",
-		"moduleResolution": "node",
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"jsx": "preserve"
-	},
-	"include": ["src", "types-env.d.ts"],
-	"exclude": ["node_modules", ".yarn"]
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
