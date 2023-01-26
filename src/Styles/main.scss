@@ -1,3 +1,4 @@
+
 $font-family: "space mono";
 $font-size: 1.5rem;
 $font-weight: bold;
@@ -38,3 +39,31 @@ $font-weight: bold;
     padding: 0.5rem;
     margin: 0.5rem;
 }
+
+.Scarecrow{
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.izquierda {
+    float: left;
+}
+
+.derecha {
+    float: right;
+}
+
+.contenedor-padre {
+    background-color: #ffffff;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+        
+    }
+}
+
