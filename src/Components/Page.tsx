@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Page = () => {
   return (
     <div className="contenedor-padre">
@@ -10,7 +8,6 @@ export const Page = () => {
           alt="Scarecrow"
         />
       </div>
-
       <div className="derecha">
         <div>
           <h1 className="TextBad">I have bad news for you</h1>
